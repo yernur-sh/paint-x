@@ -1,0 +1,50 @@
+name: hh_test
+description: "Mobile Application for coloring - Test Task"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI и стили
+  google_fonts: 6.2.1
+  flutter_svg: 2.0.10+1
+  flutter_colorpicker: 1.1.0
+  cupertino_icons: 1.0.8
+
+  # Firebase
+  firebase_core: 3.10.1
+  firebase_auth: 5.4.1
+  cloud_firestore: 5.6.1
+
+  # Галерея
+  image_gallery_saver_plus: 4.0.1
+  image_picker: 1.2.1
+  path_provider: 2.1.5
+  permission_handler: 11.3.1
+  share_plus: 10.1.0
+
+  # Уведомление
+  flutter_local_notifications: 18.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 5.0.0
+  flutter_launcher_icons: 0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/

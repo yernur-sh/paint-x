@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "328610864028",
+    "project_id": "hhtest-fb9b6",
+    "storage_bucket": "hhtest-fb9b6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328610864028:android:cb06f2394c78c4c6464659",
+        "android_client_info": {
+          "package_name": "app.vercel.khanstudio.hh_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD14h6O5u3oumCi8pSlVIeJlU2AiNRCPzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
