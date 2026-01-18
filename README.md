@@ -58,7 +58,7 @@ flutter_svg: 2.0.9
 
 1.  **Клонирование репозитория:**
     ```bash
-    git clone [https://github.com/your-username/paint_x.git](https://github.com/your-username/paint_x.git)
+    git clone https://github.com/yernur-sh/paint-x.git
     ```
 2.  **Установка зависимостей:**
     ```bash
