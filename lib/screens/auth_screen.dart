@@ -144,12 +144,12 @@ class _AuthScreenState extends State<AuthScreen> {
   Widget _buildMainButton(double screenWidth, double screenHeight, bool isTablet) {
     return Container(
       width: double.infinity,
-      height: (screenHeight * 0.07).clamp(50, 65),
+      height: (screenHeight * 0.06).clamp(50, 65),
       decoration: BoxDecoration(borderRadius: BorderRadius.circular(12), gradient: const LinearGradient(colors: [Color(0xFF8E2DE2), Color(0xFF4A00E0)], begin: Alignment.topCenter, end: Alignment.bottomCenter)),
       child: ElevatedButton(
         onPressed: _isLoading ? null : _signIn,
         style: ElevatedButton.styleFrom(backgroundColor: Colors.transparent, shadowColor: Colors.transparent, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
-        child: _isLoading ? const CircularProgressIndicator(color: Colors.white) : Text("Войти", style: TextStyle(color: Colors.white, fontSize: isTablet ? 22 : 20)),
+        child: _isLoading ? const CircularProgressIndicator(color: Colors.white) : Text("Войти", style: TextStyle(color: Colors.white, fontSize: isTablet ? 21 : 18)),
       ),
     );
   }
@@ -157,11 +157,11 @@ class _AuthScreenState extends State<AuthScreen> {
   Widget _buildRegisterButton(double screenWidth, double screenHeight, bool isTablet) {
     return SizedBox(
       width: double.infinity,
-      height: (screenHeight * 0.07).clamp(50, 65),
+      height: (screenHeight * 0.06).clamp(50, 65),
       child: ElevatedButton(
         onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const RegistrationScreen())),
         style: ElevatedButton.styleFrom(backgroundColor: const Color(0xFFE0E0E0), foregroundColor: Colors.black, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
-        child: Text("Регистрация", style: TextStyle(fontSize: isTablet ? 22 : 20)),
+        child: Text("Регистрация", style: TextStyle(fontSize: isTablet ? 21 : 18)),
       ),
     );
   }
